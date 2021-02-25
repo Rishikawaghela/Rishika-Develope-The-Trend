@@ -1,0 +1,697 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Dancing Script', cursive;
+    /* overflow-y: hidden; */
+}
+a .text{
+    text-decoration: none;
+}
+.header{
+    height: 100vh;
+    width:100%;
+}
+.container-fluid{
+    background-color: #070707;
+    width:100%;
+    height:127px;
+    position: relative;
+}
+.logo-image{
+    /* margin-top:-50px; */
+    position: absolute;
+    width:200px;
+    height:145px;
+    top:-18px;
+    left:390px;
+    right: 0px;
+}
+.content{
+    background: url(images/Particles-Flying-Up-Free-HD-Animation-Black-Background-GIF.gif);
+    height: 465px;
+    /* background-color: #070707; */
+    /* background-attachment: fixed; */
+    width:100%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.main-text{
+    color:#fff;
+    line-height:52px;
+}
+
+.menu-bar{
+    width:10%;
+    height:80.5%;
+    position:fixed;
+    top:135px;
+    background-color: #000;
+    z-index: 999;
+}
+nav{
+    position: fixed;
+    width:10%;
+    background:#000;
+}
+.hr{
+    margin: 0;
+    background-color: #EE82EE;
+}
+/* .container{
+    width: 80%;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+
+} */
+.tags{
+    color: #515152;
+    position: absolute;
+    /* bottom: 0px; */
+    left: 80px;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+
+}
+
+.animation-logo{
+    width:70px;
+}
+/* .home-page .blast{
+    display: inline-block;
+    transition: all 0.3s ease-out;
+} */
+.main-content{
+    position: absolute;
+    width: 40%;
+    height:70%;
+    top: 30%;
+    left: 250px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.main-content h1:before {
+    content: '<h1>';
+    /* font-family: 'La Belle Aurore', cursive; */
+    color: #515152;
+    font-size: 18px;
+    position: absolute;
+    top:-20px;
+    left:-15px;
+}
+.main-content h1:after {
+    content: '<h1/>';
+    /* font-family: 'La Belle Aurore', cursive; */
+    color: #515152;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.flat-button{
+    /* position: relative; */
+    display: inline-block;
+    padding:2px 20px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    font-size: 16px;
+    overflow: hidden;
+    transition: 0.2s;
+    list-style: none;
+    border: 2px solid white;
+}
+.flat-button:hover{
+    color:#000;
+    background-color: #EE82EE;
+    box-shadow: 0 0 10px #EE82EE, 0 0 40px #EE82EE, 0 0 80px #EE82EE;
+    text-decoration: none;
+    border: none;
+}
+.p1{
+    font-family: none;
+    color:grey;
+}
+.icons{
+    padding: 30px 10px 20px 35px;
+    font-size: 30px;
+    color: #ee82ee;
+    display: block;
+   
+}
+  .text{
+    font-size: 10px;
+   color: #EE82EE;
+    line-height: 51px;
+    height: 51px;
+    position: relative;
+    margin-left:30px; 
+    margin-top:20px;
+    font-family: 'La Belle Aurore', cursive;
+ 
+}
+.text:hover{
+    color:#ee82ee;
+}
+/* ul{
+    position: fixed;
+} */
+
+nav ul li i{
+    display: block;
+}
+nav ul li:hover i{
+    display: none;
+}
+nav ul li a{
+    display: none;
+}
+nav ul li:hover a{
+    display: block;
+}
+.text-zone{
+    cursor: pointer;
+}
+.text-zone span{
+    transition: 0.5s;
+}
+.text-zone:hover span{
+    color:#ee82ee;
+    text-shadow: 0 0 10px #ee82ee,0 0 20px #ee82ee,0 0 40px #ee82ee,0 0 80px #ee82ee;
+}
+.right-side-animation{
+    float:right;   
+    position: absolute;
+    width:auto;
+    height: 300px;
+    right:55px;
+    bottom: 0;
+    top:30%;
+}
+.second-container{
+    background: url('./images/ez.gif');
+    width:100%;
+    height:700px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+    background-position: center center;
+  
+}
+.about-me-text{
+    position: absolute;
+    top:20%;
+    color: white;
+    text-align: center;
+    left:200px;
+
+}
+.about-me-heading{
+    font-weight:900;
+    line-height:100px;
+    text-align: center;
+
+}
+.about-para{
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-size:15px;
+    font-family: 'La Belle Aurore', cursive;
+    text-align: center;
+}
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    width:900px;
+    position: absolute;
+    top:50%;
+    left:90px;
+}
+
+.card{
+    
+    height:300px;
+    background: rgba(0,0,0,0.5);
+    background-color: transparent;
+
+}
+.card-body{
+    align-items: center;
+    color: white;
+}
+ .p2{
+    font-family: 'La Belle Aurore', cursive;
+    text-align: center;
+    line-height: normal;
+}
+.icons{
+    text-align: center;
+}
+h4{
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+    overflow: hidden;
+}
+.third-container{
+    background: url('./images/ez.gif');
+    width:100%;
+    height:700px;
+    background-size: cover;
+    position: relative;
+    /* left:10%; */
+    overflow: hidden;
+    opacity: 1;
+    background-position: center center;
+}
+.skills-text{
+    position: absolute;
+    top:10%;
+    left:19%;
+
+}
+.skills-heading{
+    font-weight:900;
+    color: #fff;
+    line-height:100px;
+}
+.skills-para{
+    color: #fff;
+    line-height:30px;
+    font-family: 'La Belle Aurore', cursive;
+}
+.right-side-animation2{
+    width:350px;
+    margin-top:35%;
+    margin-left:65%;
+    height:150px;
+}
+
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  .portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 15px auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+    padding: 2px 15px;
+  }
+  
+  .portfolio #portfolio-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 3px 10px 3px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+  }
+  
+  .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+    background: #18d26e;
+  }
+  
+  .portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+  }
+  
+  .portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .portfolio .portfolio-wrap::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info::before {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info::after {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info p {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links {
+    text-align: center;
+    z-index: 4;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links a {
+    color: #fff;
+    margin: 0 2px;
+    font-size: 28px;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links a:hover {
+    color: #63eda3;
+  }
+  
+  .portfolio .portfolio-wrap:hover::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+  }
+  
+  .portfolio .portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+  }
+  
+  .portfolio .portfolio-wrap:hover .portfolio-info::before {
+    top: 15px;
+    left: 15px;
+  }
+  
+  .portfolio .portfolio-wrap:hover .portfolio-info::after {
+    bottom: 15px;
+    right: 15px;
+  }
+  .container{
+    padding-left: 100px!important;
+   
+  }
+  .section-title{
+    padding:30px;
+  }
+  .section-title h2{
+    font-size: 50px;
+    color: white;
+  }
+  .section-title p{
+    font-size:25px;
+    color: #fff;
+    padding-bottom:60px;
+  }
+  .hr1 hr{
+    background-color: violet;
+  }
+  .hr1{
+    margin-top:-80px;
+    margin-left: 120px;
+    width:500px;
+
+  }
+  .portfolio{
+    background: url('./images/ez.gif');
+    height:650px;
+    background-size: cover;
+    position: relative;
+    /* left:10%; */
+    opacity: 1;
+    background-position: center center;
+    margin-right:0!important;
+    margin-left:0!important;
+  }
+ 
+  /*--------------------------------------------------------------
+  # Portfolio Details
+  --------------------------------------------------------------*/
+  .portfolio-details {
+    padding-top: 40px;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+  }
+  
+  .portfolio-details .container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .portfolio-details .portfolio-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-details .portfolio-info {
+    padding-top: 45px;
+  }
+  
+  .portfolio-details .portfolio-info h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-details .portfolio-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  .portfolio-details .portfolio-info ul li + li {
+    margin-top: 10px;
+  }
+  
+  .portfolio-details .portfolio-info p {
+    font-size: 15px;
+    padding: 15px 0 0 0;
+  }
+  
+  @media (max-width: 992px) {
+    .portfolio-details .portfolio-info {
+      padding-top: 20px;
+    }
+  }
+  
+  .portfolio-details .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .portfolio-details .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #18d26e;
+  }
+  
+
+  /* contact section   */
+  .contact{
+    width:100%;
+    height: 540px;
+    background: url('./images/ez.gif');
+    background-size: cover;
+    position: relative;
+    /* left:10%; */
+    opacity: 1;
+    background-position: center center;
+        
+
+  
+  }
+  .form-sec{
+    width:700px;
+    height:auto;
+    position: relative;
+    left:8%;
+    top:15%;
+    border: 2px solid #ee82ee;
+  }
+  .heading-contact h2{
+    text-align: center;
+    color: #ee82ee;
+    font-family: 'La Belle Aurore', cursive!important;
+  }
+  .contact .php-email-form {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+  }
+  
+  .contact .php-email-form .error-message {
+    display: none;
+    background: rgba(255, 255, 255, 0.08);
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+    display: none;
+    background: rgba(255, 255, 255, 0.08);
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+    display: none;
+    background: rgba(255, 255, 255, 0.08);
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 0;
+    transition: 0.3s;
+    color: #fff;
+  }
+  
+  .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+    background-color: rgba(255, 255, 255, 0.11);
+  }
+  
+  .contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+  }
+  
+  .contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+  }
+  
+  .contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+  }
+  
+  .contact .php-email-form input {
+    padding: 10px 15px;
+  }
+  
+  .contact .php-email-form textarea {
+    padding: 12px 15px;
+  }
+  
+  .contact .php-email-form button[type="submit"] {
+    display: inline-block;
+    padding:2px 20px;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    font-size: 16px;
+    /* overflow: hidden; */
+    list-style: none;
+    border: 2px solid white;
+  }
+  
+  .contact .php-email-form button[type="submit"]:hover {
+    color:#000;
+    background-color: #EE82EE;
+    /* box-shadow: 0 0 10px #EE82EE, 0 0 40px #EE82EE, 0 0 80px #EE82EE; */
+    text-decoration: none;
+    border: none;
+    }
